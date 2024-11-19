@@ -62,7 +62,7 @@ RAZORPAY_KEY_SECRET = 'your_razorpay_key_secret'
 
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost/dynamic/",
+    "http://localhost",
 ]
 
 CORS_ALLOW_ALL_ORIGINS = True
