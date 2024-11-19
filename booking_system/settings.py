@@ -60,6 +60,14 @@ MIDDLEWARE = [
 RAZORPAY_KEY_ID = 'your_razorpay_key_id'
 RAZORPAY_KEY_SECRET = 'your_razorpay_key_secret'
 
+
+CORS_ALLOWED_ORIGINS = [
+    "http://localhost/dynamic/",
+]
+
+CORS_ALLOW_ALL_ORIGINS = True
+
+
 ROOT_URLCONF = 'booking_system.urls'
 
 REST_FRAMEWORK = {
